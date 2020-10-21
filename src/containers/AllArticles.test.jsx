@@ -6,7 +6,7 @@ import AllArticles from './AllArticles';
 jest.mock('../services/news-api.js');
 
 describe('AllArticles container', () => {
-  it('displays a list of articles', () => {
+  it('displays a list of articles', async() => {
     getHeadlines.mockResolvedValue([
       {
         title: 'Man dies',
@@ -17,5 +17,8 @@ describe('AllArticles container', () => {
 
     render(<AllArticles />);
 
+    const articleList = await screen.findByTestId('articles');
+
+    expect(articleList).not.toBeEmptyDOMElement();
   });
 });
