@@ -2,9 +2,9 @@
 
 exports[`Controls component renders Controls 1`] = `
 <DocumentFragment>
-  <input
-    value="Test Query"
-  />
-  <button />
+  <input />
+  <button>
+    Search
+  </button>
 </DocumentFragment>
 `;

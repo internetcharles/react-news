@@ -7,7 +7,6 @@ describe('Controls component', () => {
 
   it('renders Controls', () => {
     const { asFragment } = render(<SearchBar 
-      query="Test Query"
       onChange={() => {}}
       onClick={() => {}}
     />);
