@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders ArticleList 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="articles"
+  >
+    <li>
+      <figure>
+        <h1>
+          Yo
+        </h1>
+        <h3>
+          It's
+        </h3>
+        <p>
+          Lit
+        </p>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
